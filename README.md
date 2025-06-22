@@ -1,26 +1,39 @@
-Website Link: https://lost-and-found-six-lime.vercel.app/
+# Lost and Found Web Application
 
-Lost and Found Web Application
-A full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that helps users report and manage lost or found items. The system supports authentication, posting, editing, deleting, and viewing item entries.
+**Live Website:** [https://lost-and-found-six-lime.vercel.app/](https://lost-and-found-six-lime.vercel.app/)
 
-Features
-i) User registration and login
-ii) Create, edit, and delete lost/found item posts
-iii) Upload and display item images
-iv) MongoDB for data storage
-v) Responsive UI with React and Bootstrap
-vi) API tested using Postman.
+This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that enables users to report and manage lost or found items. The platform provides features such as authentication, item posting, editing, deletion, and image upload.
 
-Tech Stack
-Frontend: React.js, Bootstrap
-Backend: Node.js, Express.js
-Database: MongoDB (MongoDB Atlas)
-Tools: Postman, JWT, Cloud deployment (Render/Vercel).
+---
 
-Deployment
-Backend: Render
-Frontend: Vercel
+## Features
 
-Screenshots
-![image](https://github.com/user-attachments/assets/e42004e8-206d-4c82-8966-5975f6dad7c9)
+- User registration and login functionality
+- Create, edit, and delete lost or found item posts
+- Upload and display images related to the item
+- Stores data securely using MongoDB Atlas
+- Responsive user interface built with React.js and Bootstrap
+- Backend API tested using Postman for correctness and reliability
+
+---
+
+## Tech Stack
+
+**Frontend:** React.js, Bootstrap  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB (hosted on MongoDB Atlas)  
+**Tools Used:** Postman, JWT for authentication, GitHub, Render, Vercel
+
+---
+
+## Deployment
+
+- **Frontend:** Deployed on Vercel  
+- **Backend:** Deployed on Render  
+
+---
+
+## Screenshots
+
+![Application Screenshot](https://github.com/user-attachments/assets/e42004e8-206d-4c82-8966-5975f6dad7c9)
 
