@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { API_BASE_URL } from './config';
+import { api } from '../utils/api';
 
 const ItemCard = ({ item }) => {
     const navigate = useNavigate();
@@ -10,8 +10,8 @@ const ItemCard = ({ item }) => {
     };
 
     const getImageUrl = (imageName) => {
-        return imageName ? `${API_BASE_URL.replace('/api', '')}/uploads/${imageName}` : null;
-        // We remove '/api' from base URL because uploads route is usually not under /api
+        const baseURL = api.defaults.baseURL.replace('/api', '');
+        return imageName ? `${baseURL}/uploads/${imageName}` : null;
     };
 
     return (
@@ -59,3 +59,4 @@ const ItemCard = ({ item }) => {
 };
 
 export default ItemCard;
+
