@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { API_BASE_URL } from './config';
 
 const ItemCard = ({ item }) => {
     const navigate = useNavigate();
@@ -9,7 +10,8 @@ const ItemCard = ({ item }) => {
     };
 
     const getImageUrl = (imageName) => {
-        return imageName ? `http://localhost:5000/uploads/${imageName}` : null;
+        return imageName ? `${API_BASE_URL.replace('/api', '')}/uploads/${imageName}` : null;
+        // We remove '/api' from base URL because uploads route is usually not under /api
     };
 
     return (
