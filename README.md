@@ -36,4 +36,7 @@ This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application t
 ## Screenshots
 
 ![Application Screenshot](https://github.com/user-attachments/assets/e42004e8-206d-4c82-8966-5975f6dad7c9)
+![image](https://github.com/user-attachments/assets/33c2bf15-a035-4ab2-9025-449e7d5b510b)
+![image](https://github.com/user-attachments/assets/7ace79f2-1d6b-4c0e-bc4e-37d525120357)
+
 
